@@ -6,7 +6,6 @@ package example.myapp.helloworld
 
 import akka.actor.{ ActorSystem, ClassicActorSystemProvider }
 import akka.grpc.GrpcClientSettings
-import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
 import example.myapp.helloworld.grpc._
 import org.junit.runner.RunWith
